@@ -1,0 +1,28 @@
+:root {
+    --grey-0: #0b090a;
+    --grey-1: #161a1d;
+    --grey-2: #212529;
+    --grey-3: #343A40;
+    --grey-4: #495057;
+    --grey-5: #6C757D;
+    --grey-6: #ADB5BD;
+    --grey-7: #CED4DA;
+    --grey-8: #DEE2E6;
+    --grey-9: #E9ECEF;
+    --grey-10: #F8F9FA;
+
+    --primary__color: #8b5f76;
+    --second__color: #402a2c;
+    --third__color: #241715;
+    --forthy__color: #fdeaea;
+    --five__color: #46313C;
+    --sixth-color: #BFB4B6;
+    
+}
+
+
+body{
+    background-color: var(--forthy__color);
+    font-family: "Roboto", sans-serif;
+    
+}
