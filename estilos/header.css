@@ -5,6 +5,7 @@ header {
     font-weight: bold;
 
     width: 100vw;
+    height: 60px;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -24,7 +25,7 @@ header {
 }
 .header_first > ul {
     display: flex;
-    gap: 90px;
+    gap: 50px;
 }
 .header_first a{
     color: var(--grey-9);
@@ -35,4 +36,10 @@ header {
     position: absolute;
     left: 80px;
 
+}
+
+@media (max-width:760px) {
+    .header_first ul {
+        display: none;
+    }
 }

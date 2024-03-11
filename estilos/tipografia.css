@@ -12,3 +12,24 @@ h3{
     font-size: 1rem;
     font-weight: 600;
 }
+
+.section-title {
+    text-align: center;
+    position: relative;
+}
+.section-title::after{
+    content: "";
+    width: 300px;
+    height: 2px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-after::after {
+    background-color: var(--grey-9);
+}
+.black-after::after {   
+    background-color: var(--grey-0);
+}

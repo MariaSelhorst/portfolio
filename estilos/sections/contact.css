@@ -1,0 +1,54 @@
+.contact-section {
+    width: 100%;
+    padding: 80px 0 120px;
+}
+
+.contact-section form {
+    width: 500px;
+    max-width: 95%;
+    margin: auto;
+
+    color: var(--grey-9);
+
+    background-color: var(--grey-0);
+    padding: 30px;
+    border: 1px solid var(--grey-7);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-section input {
+    font-size: 1rem;
+
+    padding: 8px;
+}
+
+.contact-section button {
+    width: max-content;
+    align-self: flex-end;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--grey-9);
+
+    padding: 8px 20px;
+    background-color: var(--grey-0);
+    border: 2px solid var(--grey-9);
+    border-radius: 15px;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact-section button:hover {
+    background-color: var(--grey-9);
+    color: var(--grey-0);
+}

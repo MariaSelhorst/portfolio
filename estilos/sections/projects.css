@@ -1,0 +1,44 @@
+.project-section {
+    background-color: var(--grey-0);
+    padding: 80px 0 120px;
+    color: var(--grey-9);
+}
+.project-section>div {
+    width: 1300px;
+    max-width: 95%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.project-section article {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    width: 300px;
+
+    padding: 20px;
+    border: 1px solid var(--grey-9);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project-item ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project-item li {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: var(--grey-9);
+    color: var(--grey-0);
+}

@@ -7,11 +7,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./estilos/main.css">
     <link rel="stylesheet" href="./estilos/reset.css">
+    <link rel="stylesheet" href="./estilos/main.css">
     <link rel="stylesheet" href="./estilos/global.css">
     <link rel="stylesheet" href="./estilos/header.css">
     <link rel="stylesheet" href="./estilos/tipografia.css">
+    <link rel="stylesheet" href="./estilos/sections/about.css">
+    <link rel="stylesheet" href="./estilos/sections/skills.css">
+    <link rel="stylesheet" href="./estilos/sections/projects.css">
+    <link rel="stylesheet" href="./estilos/sections/contact.css">
 
     <title>Maria Eduarda Selhorst</title>
 </head>
@@ -29,18 +33,113 @@
         </nav>
     </header>
     <main>
-        <section class="main-section">
+        <section id="home" class="main-section">
             <div>
                 <h1>HELLO!</h1>
                 <h2>I am Maria Selhorst.</h2>
                 <p>I´m studying to be a software engineer and a systems developer. </p>
+                <a href="https://github.com/MariaSelhorst" target="_blank">
+                    <img src="./github.png" height="100%">
+                    <h3>MariaSelhorst</h3>
+                    <img src="./link.webp" height="100%">
+                </a>
             </div>
             <img src="foto2.jpg">
         </section>
-    </main>
-    <footer>
+      <section id="about" class="second__section">
+        <h2 class="section-title white-after">ABOUT</h2>
+        <div class="first_div">
+            <div>
+                <p>I´m Maria Selhorst, a student of the UniSenai in the field of Software Engineering.I´m currently learning to be a systems developer. I´m a big fan of technology and I´m always looking for new opportunities to learn and improve my skills.</p>
+                <img src="./gatinho.jpg" alt="gatinho1">
+            </div>
+            <div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <img src="./gatinho.jpg" alt="gatinho2">
+            </div>
+        </div>
+      </section>
+      <section id="skills" class="third_section">
+        <h2 class="section-title black-after">SKILLS</h2>
+        <h2>My knowledge of technologies ​​varies a lot, such as:</h2>
+        <div class="programming-items">
+            <img src="python.png" alt="">
+            <img src="c.png" alt="">
+            <img src="cpp.png" alt="">
+            <img src="java.png" alt="">
+            <img src="html.png" alt="">
+            <img src="css.png" alt="">
+            <img src="mysql.png" alt="">
+            <img src="sqlse.png" alt="">
+            <img src="Power-BI.png" alt="">
+            <img src="excel.png" alt="">
+        </div>
+      </section>
+      <section id="projects" class="project-section">
+        <div>
+            <h2 class="section-title white-after">PROJECTS</h2>
 
-    </footer>
+            <article>
+                <div class="project-item">
+                    <h2>Titulo</h2>
+                    <p>Isso é uma descrição</p>
+                    <h3>Conhecimentos utilizados:</h3>
+                    <ul>
+                        <li>tech</li>
+                        <li>tech</li>
+                        <li>tech</li>
+                    </ul>
+                </div>
     
+                <div class="project-item">
+                    <h2>Titulo</h2>
+                    <p>Isso é uma descrição</p>
+                    <h3>Conhecimentos utilizados:</h3>
+                    <ul>
+                        <li>tech</li>
+                        <li>tech</li>
+                        <li>tech</li>
+                    </ul>
+                </div>
+    
+                <div class="project-item">
+                    <h2>Titulo</h2>
+                    <p>Isso é uma descrição</p>
+                    <h3>Conhecimentos utilizados:</h3>
+                    <ul>
+                        <li>tech</li>
+                        <li>tech</li>
+                        <li>tech</li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <form>
+            <h2>Entre em contato!</h2>
+            <fieldset>
+                <label for="inputName">Nome:</label>
+                <input id="inputName" type="text" placeholder="Digite seu nome aqui..." required>
+            </fieldset>
+            <fieldset>
+                <label for="inputName">Email:</label>
+                <input id="inputName" type="email" placeholder="Digite seu nome aqui..." required>
+            </fieldset>
+            <fieldset>
+                <label for="inputName">Mensagem:</label>
+                <textarea name="" id="" cols="30" rows="10"required></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>@maduselhorst</p>
+        </div>
+    </footer>
+
 </body>
 </html>
