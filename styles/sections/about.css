@@ -29,7 +29,9 @@
     max-width: 95%;
 }
 .first_div>div>img {
-    height: max-content;
+    height: 300px ;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 @media(min-width: 881px) {

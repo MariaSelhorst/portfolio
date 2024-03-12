@@ -30,7 +30,24 @@ header {
 .header_first a{
     color: var(--grey-9);
     text-decoration: none;
+    position: relative;
 }
+.header_first a::after{
+    content: "";
+    width: 0;
+    background-color: var(--grey-9);
+    height: 2px;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.3s;
+}
+.header_first a:hover::after{
+    width: 100%;
+}
+
 .header_first h1{
     font-size: 1rem;
     position: absolute;
